@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방과후학교 안내 페이지</title>
+    <!-- Tailwind CSS를 사용하여 스타일링 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <div class="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg my-10">
+        <!-- 헤더 섹션 -->
+        <header class="border-b pb-6 mb-6">
+            <h1 class="text-3xl font-bold text-blue-700">2026학년도 방과후학교 안내</h1>
+            <p class="text-gray-600 mt-2">학생들의 꿈과 끼를 키우는 행복한 배움터에 여러분을 초대합니다.</p>
+        </header>
+
+        <!-- 안내 사항 -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold mb-3 text-gray-700">📌 프로그램 안내</h2>
+            <div class="bg-blue-50 p-4 rounded-md border-l-4 border-blue-500">
+                <ul class="list-disc list-inside space-y-1">
+                    <li>운영 기간: 2026년 9월 ~ 12월 (1학기 기준)</li>
+                    <li>대상: 본교 재학생 전원</li>
+                    <li>신청 방법: 아래 '수강 신청' 버튼을 통해 온라인 접수</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 시간표 섹션 -->
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold mb-3 text-gray-700">📅 강좌 시간표</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="p-3 border">요일</th>
+                            <th class="p-3 border">강좌명</th>
+                            <th class="p-3 border">시간</th>
+                            <th class="p-3 border">강사명</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-3 border">월</td>
+                            <td class="p-3 border">창의 로봇 코딩</td>
+                            <td class="p-3 border">15:00 - 16:30</td>
+                            <td class="p-3 border">김선생님</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-3 border">화</td>
+                            <td class="p-3 border">원어민 영어 회화</td>
+                            <td class="p-3 border">16:00 - 17:30</td>
+                            <td class="p-3 border">Smith 강사</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-3 border">목</td>
+                            <td class="p-3 border">방송 댄스</td>
+                            <td class="p-3 border">15:30 - 17:00</td>
+                            <td class="p-3 border">박선생님</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 신청 버튼 -->
+        <div class="text-center mt-10">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                수강 신청하러 가기
+            </button>
+            <p class="text-sm text-gray-500 mt-4">※ 신청 기간을 반드시 확인해 주세요.</p>
+        </div>
+    </div>
+
+</body>
+</html>
